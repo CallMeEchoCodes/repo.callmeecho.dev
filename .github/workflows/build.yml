@@ -28,7 +28,7 @@ jobs:
                 bash build.sh
 
             - name: Create ghpages artifact
-              uses: actions/upload-pages-artifact
+              uses: actions/upload-pages-artifact@v1
               with:
                 path: "publish/"
 
