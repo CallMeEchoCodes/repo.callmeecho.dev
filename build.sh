@@ -57,4 +57,4 @@ for dir in "${dirs[@]}"; do
 done
 
 cp -R pool "$OUTPUT_DIR"
-cp static/* "$OUTPUT_DIR"
+cp -R static/* "$OUTPUT_DIR"
