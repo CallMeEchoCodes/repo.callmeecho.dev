@@ -57,4 +57,4 @@ for dir in "${dirs[@]}"; do
 done
 
 cp -R pool "$OUTPUT_DIR"
-cp -- *.png "$OUTPUT_DIR"
+cp static/* "$OUTPUT_DIR"
