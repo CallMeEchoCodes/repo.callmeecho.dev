@@ -1,0 +1,23 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+.flex-item {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+@media (max-width: 640px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .flex-item {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 8px;
+        margin-top: 8px;
+    }
+}
